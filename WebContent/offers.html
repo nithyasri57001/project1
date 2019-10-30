@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AirLines | FAQ</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Cabin_400.font.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+</head>
+<body id="page2">
+<div class="main">
+  <!--header -->
+  <header>
+    <div class="wrapper">
+      <h1><a href="index.html" id="logo">AirLines</a></h1>
+      <span id="slogan">Fast, Frequent &amp; Safe Flights</span>
+      <nav id="top_nav">
+        <ul>
+          <li><a href="index.html" class="nav1">Home</a></li>
+          <li><a href = "https://www.google.com/maps/place/Jagannatha+Puram,+Velachery,+Chennai,+Tamil+Nadu+600042/data=!4m2!3m1!1s0x3a525d889e42f497:0xb5e0af124f94294b?sa=X&ved=2ahUKEwiN4-Oa6oTlAhWIp48KHQ2jCY8Q8gEwAHoECAoQAQ" class="nav2">Sitemap</a></li>
+          <li><a href="contacts.html" class="nav3">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"><span><span>About</span></span></a></li>
+        <li id="menu_active"><a href="offers.html"><span><span>FAQ</span></span></a></li>
+        <li><a href="book.html"><span><span>Book</span></span></a></li>
+        <li><a href="services.html"><span><span>Employee</span></span></a></li>
+        <li><a href="extra.html"><span><span>Final</span></span></a></li>
+        <li><a href="contacts.html"><span><span>Contact</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- / header -->
+  <!--content -->
+  <section id="content">
+    <div class="wrapper pad1">
+      <article class="col1">
+        <div class="pad_bot3">
+          <div class="box1">
+            <h2 class="top">Search and Book Flights</h2>
+            <form id="form_4" action="search.jsp" method="post">
+              <div>
+                <div class="row"> <span class="left">From</span>
+                  <input type="text" class="input" name="from">
+                </div>
+                <div class="row"> <span class="left">To</span>
+                  <input type="text" class="input" name="to">
+                </div>
+                <div class="row"> <span class="left">Date</span>
+                  <input type="date" class="input" >
+                </div>
+                <div class="row"> <span class="left">Day</span>
+                  <input type="text" class="input" name="day">
+                </div><center>
+                <input type="submit" value="search"></center>
+            </form>
+            <form id="form_4" action="connective.jsp" method="post">
+              <div>
+                <div class="row"> <span class="left">From</span>
+                  <input type="text" class="input" name="from">
+                </div>
+                <div class="row"> <span class="left">To</span>
+                  <input type="text" class="input" name="to">
+                </div>
+                <div class="row"> <span class="left">Date</span>
+                  <input type="date" class="input" >
+                </div>
+                <div class="row"> <span class="left">Day</span>
+                  <input type="text" class="input" name="day">
+                </div>
+                <center>
+                <input type="submit" value="search connectives"></center>
+            </form>
+          </div>
+        </div>
+        <div class="box1">
+          <h2 class="top">Offers of the Week</h2>
+          <div class="pad"> <strong>From Bangalore</strong><br>
+            <ul class="pad_bot1 list1">
+              <li> <span class="right color1">AIR_EMIRATES</span> Chennai </li>
+            </ul>
+            <strong>From Chennai </strong><br>
+            <ul class="pad_bot1 list1">
+              <li> <span class="right color1">SPICE_JET</span> Mumbai </li>
+              <li> <span class="right color1">AIR_NITHYA</span> Kolkata </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <article class="col2">
+        <h3 class="pad_top1">SEARCH FLIGHTS</h3>
+        <div class="wrapper pad_bot3">
+          <figure class="left marg_right1"><img src="images/page2_img1.jpg" alt=""></figure>
+          <div class="cols">
+            <h4>ALL FLIGTHTS FROM </h4>
+            <form id="form_4" action="from.jsp" method="post">
+              <div>
+                <div class="row"> <span class="left" >From</span>
+                  <input type="text" class="input" name="from">
+                </div>
+               <center><input type="submit" value="submit"></center>
+            </form><br>
+            <h4>ALL FLIGTHTS ARRINVING AT A PARTICULAR PLACE </h4>
+            <form id="form_4" action="to.jsp" method="post">
+              <div>
+                <div class="row"> <span class="left">To</span>
+                  <input type="text" class="input" name="to">
+                </div><center>
+                <input type="submit" name="submit" value="search"></center>
+              </div>
+            </form>
+          </div>
+        </div>
+        <h3>SEARCH</h3>
+        <div class="wrapper pad_bot3">
+          <figure class="left marg_right1"><img src="images/page2_img2.jpg" alt=""></figure>
+          <div class="cols">
+            <h4>ALL FLIGTHTS IN DAY </h4>
+            <form id="form_4" action="day.jsp" method="post">
+              <div>
+                <div class="row"> <span class="left">DATE</span>
+                 <input type="text" class="input1" name="day">
+                </div><center>
+                <input type="submit" value="search"></center>
+            </form>
+            <h4>ENQUIRE ABOUT AIRPORT </h4>
+            <form id="form_4" action="airport.jsp" method="post">
+              <div>
+                <div class="row"> <span class="left">ENTER AIRPORT CODE</span>
+                  <input type="text" class="input" name="air">
+                </div><center>
+               <input type="submit" value="search"></center>
+            </form>
+
+          </div>
+        </div>
+        
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--content end-->
+  <!--footer -->
+  <footer>
+    <div class="wrapper">
+      <ul id="icons">
+        <li><a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon4.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon5.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon6.jpg" alt=""></a></li>
+      </ul>
+      <div class="links">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved<br>
+        Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+    </div>
+  </footer>
+  <!--footer end-->
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+    $('#form_4').jqTransform({
+        imgPath: 'jqtransformplugin/img/'
+    });
+});
+</script>
+</body>
+</html>
